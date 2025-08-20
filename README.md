@@ -27,25 +27,10 @@ Think of it as `create-react-app` — but for ML projects.
 
 ## 📦 Installation
 
-Clone and install locally:
-
 ```bash
-git clone https://github.com/yourusername/mlscaffold.git
-cd mlscaffold
-
-# create a virtual environment
-python -m venv .venv
-# activate it
-# Linux/Mac:
-source .venv/bin/activate
-# Windows CMD:
-.venv\Scripts\activate
-# Windows PowerShell:
-.venv\Scripts\Activate.ps1
-
-# install in editable mode
-pip install -e .
+pip install mlscaffold
 ```
+
 ## 🚀 Usage 
 Create a new ML project:
 ```
