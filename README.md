@@ -43,8 +43,30 @@ output
 👉 Next: cd my-ml-project
 ```
 
-## 📁 Generated Project Structure
+## 📁 Project Structures
 
+`mlscaffold` supports three project types: **basic**, **research**, and **production**. Choose the one that fits your workflow:
+
+### 1. Basic
+For quick experiments, prototypes, or simple scripts.
+```
+my-ml-project/
+├─ src/
+│  ├─ __init__.py
+│  └─ main.py
+├─ data/
+├─ models/
+├─ notebooks/
+├─ tests/
+│  └─ test_smoke.py
+├─ ML_Workflow.txt
+├─ requirements.txt
+├─ README.md
+└─ .gitignore
+```
+
+### 2. Research
+For academic, research, or more complex projects with experiments and documentation.
 ```
 my-ml-project/
 ├─ src/
@@ -56,6 +78,7 @@ my-ml-project/
 ├─ models/
 ├─ notebooks/
 ├─ docs/
+├─ experiments/
 ├─ tests/
 │  └─ test_smoke.py
 ├─ ML_Workflow.txt
@@ -63,7 +86,34 @@ my-ml-project/
 ├─ README.md
 └─ .gitignore
 ```
-ML_Workflow.txt includes the full ML workflow checklist:
+
+### 3. Production
+For production-ready ML systems, APIs, and CI/CD integration.
+```
+my-ml-project/
+├─ src/
+│  ├─ __init__.py
+│  └─ main.py
+├─ data/
+├─ models/
+├─ notebooks/
+├─ docs/
+├─ api/
+├─ tests/
+│  └─ test_smoke.py
+├─ .github/
+│  └─ workflows/
+│      └─ ci.yml
+├─ Dockerfile
+├─ ML_Workflow.txt
+├─ requirements.txt
+├─ README.md
+└─ .gitignore
+```
+
+---
+
+`ML_Workflow.txt` includes the full ML workflow checklist:
 ```
 0) Project setup
 1) Problem framing
