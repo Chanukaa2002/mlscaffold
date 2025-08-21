@@ -4,13 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mlscaffold"
-version = "0.1.0"
+version = "0.1.3"
 description = "Create a ready-to-use ML project structure with one command."
 readme = "README.md"
 authors = [{ name = "Chanuka Dilshan", email = "mchanuka72@gmail.com" }]
 license = { file = "LICENSE" }
 requires-python = ">=3.8"
-dependencies = []
+dependencies = [
+    "questionary>=2.0.0"
+]
 
 [project.urls]
 Homepage = "https://github.com/Chanukaa2002/mlscaffold"
