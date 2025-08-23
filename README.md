@@ -40,7 +40,7 @@ mlscaffold my-ml-project
 output
 ```
 ✅ ML project 'my-ml-project' created at: /your/path/my-ml-project
-👉 Next: cd my-ml-project
+👉 Next : cd my-ml-project
 ```
 
 ## 📁 Project Structures
