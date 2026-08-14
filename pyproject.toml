@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Create a ready-to-use ML project structure with one command."
 readme = "README.md"
 authors = [{ name = "Chanuka Dilshan", email = "mchanuka72@gmail.com" }]
-license = { file = "LICENSE" }
+license = { text = "MIT" }
 requires-python = ">=3.8"
 dependencies = []
 
@@ -18,3 +18,9 @@ Repository = "https://github.com/Chanukaa2002/mlscaffold"
 
 [project.scripts]
 mlscaffold = "mlscaffold.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mlscaffold*"]
+exclude = ["tests*", "*test*"]
+
